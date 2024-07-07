@@ -2,7 +2,33 @@
 History
 =======
 
-.. comment:: bumpversion marker
+.. bumpversion marker
+
+0.9.1 (2024-07-06)
+------------------
+* Fixed docs build.
+
+0.9.0 (2024-07-06)
+------------------
+* Fixed ``Scheduler`` not compatible with BaseDupeFilter (#294)
+* Added precommit hooks.
+* Switched to Python 3.12 as default build version.
+
+0.8.0 (2024-07-03)
+------------------
+* Fixed request fingerprint method.
+* Fixed support for Scrapy 2.6+.
+* Fixed tox tests and github workflow.
+* Deprecated ``REDIS_START_URLS_BATCH_SIZE``.
+
+0.7.3 (2022-07-21)
+------------------
+* Move docs to GitHub Wiki
+* Update tox and support dynamic tests
+* Update support for json data
+* Refactor max idle time
+* Add support for python3.7~python3.10
+* Deprecate python2.x support
 
 0.7.2 (2021-12-27)
 ------------------
